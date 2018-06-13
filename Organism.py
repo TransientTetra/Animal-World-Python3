@@ -16,6 +16,18 @@ class Organism:
 		self.power = power
 		self.initiative = initiative
 
+	def createNew(self, i, position):
+		pass
+	
+	def action(self):
+		pass
+	
+	def draw(self):
+		pass
+	
+	def collision(self, other):
+		pass
+
 	def wrapPosition(self, position):
 		if position.x > self.world.height - 1:
 			position.x -= self.world.height
